@@ -30,15 +30,18 @@ local library = {
 	tabs = {},
 	draggable = true,
 	flags = {},
+	title = "DemoHook | Universal",
 	open = false,
-	mousestate = inputService.MouseIconEnabled ,
+	mousestate = inputService.MouseIconEnabled,
 	popup = nil,
 	instances = {},
 	connections = {},
 	options = {},
 	notifications = {},
 	tabSize = 0,
-	theme = {}
+	theme = {},
+	foldername = "DemoHook",
+	fileext = ".json"
 }
 
 getgenv().library = library
